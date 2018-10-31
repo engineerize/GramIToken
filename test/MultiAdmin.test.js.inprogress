@@ -1,0 +1,11 @@
+const { shouldBehaveLikeMultiAdmin } = require('./MultiAdmin.behaviour');
+
+const MultiAdmin = artifacts.require('MultAdmin');
+
+contract('MultiAdmin', function (accounts) {
+  beforeEach(async function () {
+    this.multiAdmin = await MultiAdmin.new();
+  });
+
+  shouldBehaveLikeMultiAdmin(accounts);
+});

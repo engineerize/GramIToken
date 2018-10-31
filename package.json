@@ -1,0 +1,24 @@
+{
+  "name": "gramitoken",
+  "version": "1.0.0",
+  "description": "Gramarye Token v I",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.2",
+    "openzeppelin-solidity": "^1.12.0"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.1.8",
+    "truffle-test-utils": "^0.1.0"
+  }
+}
